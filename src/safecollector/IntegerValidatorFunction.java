@@ -1,7 +1,6 @@
 package safecollector;
 
 @FunctionalInterface
-public interface ValidatorFunction {
+public interface IntegerValidatorFunction {
     boolean apply(int x);
 }
-
